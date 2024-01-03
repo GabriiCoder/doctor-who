@@ -1,0 +1,28 @@
+
+.line {
+    height: 0.01rem;
+    background-color: white; 
+    width: 95.5rem;
+    margin-top: -rem;
+    }
+    
+    .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3.2rem;
+    }
+    
+    .left img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 56.25rem;
+    margin-top: 0.7rem;
+    }
+    
+    .right img{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0.5rem;
+    margin-top: 0.9rem;
+    }

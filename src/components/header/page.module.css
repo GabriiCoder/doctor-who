@@ -1,0 +1,77 @@
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navList {
+list-style: none;
+display: flex;
+margin-bottom: 6.9rem;
+}
+
+.navList li { 
+margin-right: 2.0rem;
+margin-bottom: 6rem;
+}
+
+.navList a {
+text-decoration: none;
+color: white;
+font-size: 0.813rem;
+}
+.logo {
+width: 8.75rem;
+height: 8.75rem;
+margin-right: 20rem;
+margin-top: 0.625rem;
+}
+
+.logoContainer {
+display: flex;
+align-items: center;
+margin-right: 3rem;
+}
+
+.logoWrapper {
+max-width: 10rem;
+margin-right: 4.688rem;
+margin-bottom: 8.5rem;
+}
+
+.socialIcons {
+display: flex;
+gap: 0.938rem;
+/* padding: 3.5rem; */
+margin-right: 2rem;
+}
+
+.socialIcons img {
+max-width: 0.900rem; 
+margin-bottom: 12.75rem;
+}
+
+
+.searchContainer, .icon{
+width: 3.75rem;
+height: 1.5rem;
+cursor: pointer;
+margin-bottom: 12rem;
+margin-left: 17rem;
+position: absolute;
+}
+.searchContainer, .searchBar{
+display: flex;
+align-items: center;
+padding: 0.5rem;
+border-radius: 0.313rem;
+}
+
+.input .searchBar, .searchContainer{
+border: none;
+padding: 5rem;
+font-size: 1rem;
+outline: none;
+color: #e5d5d5; /* Color del texto blanco */
+background-color: transparent; /* Fondo transparente */
+}

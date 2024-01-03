@@ -1,0 +1,14 @@
+.button{
+    background-color: #FFC67E;
+    padding: 0.9rem 6rem;
+    margin-left: 13rem;
+    margin-top: 9rem;
+    border-radius: 1.4rem;
+    border: none;
+    font-family: 'Lato', Bold, solid;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    }

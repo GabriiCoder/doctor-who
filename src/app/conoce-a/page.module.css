@@ -1,0 +1,45 @@
+.title{
+    margin: -12rem 0 0.9rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-left: 6rem;
+    position: absolute;
+    }
+    .doctor{
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: -7.5rem;
+    position: absolute;
+    margin-left: 21.8rem;
+    }
+
+.description1 + .description2{
+color: #FFFFFF;
+font-size: 1.3rem;
+margin-top: -1rem;
+position: absolute;
+margin-left: 13rem;
+}
+
+.description3 + .description4{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-top: -2rem;
+    position: absolute;
+    margin-left: 12rem;
+}
+.description2 + .description3{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    position: absolute;
+    margin-left: 16rem;
+}
+
+.description1{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-top: -3rem;
+    position: absolute;
+    margin-left: 8rem;
+}
