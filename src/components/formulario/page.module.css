@@ -1,0 +1,63 @@
+.formContainer {
+padding: 5.2rem;
+}
+
+.styledForm {
+    display: grid;
+    gap: 4rem;
+}
+
+.styledForm div {
+    padding: 1rem;
+}
+
+.styledForm label .nombre{
+    display: none;
+
+}
+.styledForm input,
+.styledForm textarea {
+    width: 23%;
+    padding: .6rem 1rem;
+    margin-left: 62rem;
+    background-color: black;
+    border: 1px solid white;
+    margin-top: -10rem;
+    position: absolute;
+    text-align: center;
+    color: white; 
+}
+
+.styledForm input::placeholder,
+.styledForm textarea::placeholder {
+    color: white;
+}
+
+.styledButton {
+    background-color: #FFC67E;
+    padding: 0.4rem 3.9rem;
+    margin-left: 66rem;
+    margin-top: 8rem;
+    border-radius: 1.4rem;
+    border: none;
+    font-family: 'Lato', Bold, solid;
+    font-size: 1.1rem;
+    font-weight: 700;
+    position: absolute;
+    cursor: pointer;
+}
+
+  /* Estilos para el botón al pasar el ratón sobre él */
+/* .styledButton:hover {
+    background-color:red;
+} */
+
+  /* Estilos para el botón al hacer clic en él */
+/* .styledButton:active {
+    background-color: gray;
+  } */
+.alert{
+    margin-top: -4rem;
+    margin-left: 38rem;
+    position: absolute;
+}

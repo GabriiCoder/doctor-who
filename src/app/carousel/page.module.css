@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    max-width: 100%;
+}
+.carousel-container {
+width: 100%;
+/* height: 100%; */
+margin-top: -8rem;
+position: relative;
+max-height: 100%;
+}
+.carousel-slide {
+    position: relative;
+}
+.carousel-slide img {
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.overlayContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-end; 
+    color:var(--tertiary-color);
+    margin-top: 300px;
+    margin-left: 300px;
+    position: absolute;
+}
+.text {
+    font-size: 3.5rem;
+    position: absolute;
+    margin-top: -6rem;
+    font-weight: 650;
+    margin: 0 -10.5rem -5rem;
+    
+}
+.button {
+    padding: 0px;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    --secondary-title-weight: bold;
+    font-weight: var(--secondary-title-weight);
+    cursor: pointer;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    border: 0px solid var(--tertiary-color);
+    position: absolute;
+    margin-top: 10rem;
+    left: -10rem;
+}
+.navigation-dots {
+    position:absolute;
+    bottom: 10rem;
+    left: 90%;
+    transform: translateX(-30%);
+    display: flex;
+    gap: 1rem;
+}
+.dot {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 0.1rem solid var(--tertiary-color);
+}
+.dot:hover {
+    background-color: transparent;
+}
+.activeDot {
+    background-color: var(--secondary-color);
+}
+
+/* @media (max-width: 768px) {
+    .carousel-slide img {
+    width: 100%;
+    height: auto;
+    }
+    .overlay {
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding: 10px; 
+    }
+
+    .overlayContent {
+    align-items: center; 
+    text-align: center;
+    }
+
+    .text {
+    font-size: 3rem; 
+    margin-bottom: 1rem;
+    }
+
+    .button {
+    font-size: 18px; 
+    width: 150px; 
+    height: 2rem;
+    }
+
+    .slick-dots {
+    bottom: 10px; 
+    }
+} */

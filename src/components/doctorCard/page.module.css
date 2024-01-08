@@ -1,0 +1,14 @@
+
+.card {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.info {
+    color: white;
+    position: relative;
+}

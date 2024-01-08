@@ -24,7 +24,9 @@ font-size: 0.813rem;
 width: 8.75rem;
 height: 8.75rem;
 margin-right: 20rem;
-margin-top: 0.625rem;
+margin-top: 0.600rem;
+/* transform: translateX(-50%); */
+z-index: 2
 }
 
 .logoContainer {

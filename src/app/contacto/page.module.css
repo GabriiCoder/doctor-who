@@ -1,0 +1,15 @@
+.contact {
+    color: white;
+    position: absolute;
+    margin-top: -9rem;
+    margin-left: 8rem;
+    font-size: 3rem;
+    display: block;
+}
+.Doc{
+    color: white;
+    position: absolute;
+    font-size: 3rem;
+    margin-left: 20rem;
+    margin-top: -5rem;
+}

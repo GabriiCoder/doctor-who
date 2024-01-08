@@ -1,17 +1,23 @@
 import React from 'react';
 import Header from '@/components/header/page';
 import Footer from '@/components/footer/page';
+import style from './page.module.css';
+import ContactForm from '../../components/formulario/page';
 
-const ContactPage = () => {
+
+    const ContactPage = () => {
 return (
+    < >
+    <Header />
     <main>
-        <Header />
         <div>
-        <h1>Contacto</h1>
-        {/* Contenido específico de la página de contacto */}
+        <h2 className={style.contact}>Envia tu mensaje al</h2>
+        <h2 className={style.Doc}>Doctor</h2>
         </div>
-        <Footer />
+        <ContactForm />
     </main>
+    <Footer />
+    </>
 );
 };
 
